@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./Project.css">
+    <title>Manoj Portfolio - Projects</title>
+    
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Manoj <span>Prajapat</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="../index.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="../About/About.html">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="../Skills/Skills.html">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="../Project/Projects.html">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="../Contact/Contact.html">Contact</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="../index.html">Home</a>
+                <a href="../About/About.html">About</a>
+                <a href="../Skills/Skills.html">Skills</a>
+                <a href="../Project/Projects.html">Projects</a>
+                <a href="../Contact/Contact.html">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="projects">
+        <h2 data-aos="fade-down" data-aos-duration="1500">Projects</h2>
+        <div class="projects-container">
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1500">
+                <div class="project-image">
+                    <img src="/api/placeholder/400/200" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>E-commerce Website</h3>
+                    <p>A fully responsive e-commerce platform built with React and Node.js, featuring user authentication and payment integration.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                <div class="project-image">
+                    <img src="/api/placeholder/400/200" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h3>Weather App</h3>
+                    <p>A sleek weather application that provides real-time weather data using a third-party API, built with JavaScript and CSS animations.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                <div class="project-image">
+                    <img src="/api/placeholder/400/200" alt="Project 3">
+                </div>
+                <div class="project-info">
+                    <h3>Task Manager</h3>
+                    <p>A full-stack task management application with user authentication, built using the MERN stack (MongoDB, Express, React, Node.js).</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./Project.js"> </script>
+</body>
+</html>

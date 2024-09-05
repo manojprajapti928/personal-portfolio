@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./Skills.css">
+    <title>Manoj's Skills</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Manoj <span>Prajapat</span>
+            </div>
+            <div class="links">
+                <a href="../index.html" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">Home</a>
+                <a href="../About/About.html" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">About</a>
+                <a href="../Skills/Skills.html" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">Skills</a>
+                <a href="../Project/Projects.html" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">Projects</a>
+                <a href="../Contact/Contact.html" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">Contact</a>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="toggleMenu()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="../index.html">Home</a>
+                <a href="../About/About.html">About</a>
+                <a href="../Skills/Skills.html">Skills</a>
+                <a href="../Project/Projects.html">Projects</a>
+                <a href="../Contact/Contact.html">Contact</a>
+            </div>
+            <i class="fa-solid fa-xmark cancel" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <h1 data-aos="fade-down" data-aos-duration="1500">My <span>Skills</span></h1>
+            <div class="skills-grid">
+                
+                <!-- Frontend Development Skills -->
+                <div class="skill-category" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <h2>Frontend Development</h2>
+
+                    <div class="skill-item">
+                        <div class="skill-name"><i class="fab fa-html5"></i> HTML5</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                        <div class="skill-details">HTML5 is used for structuring content on the web.</div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name"><i class="fab fa-css3-alt"></i> CSS3</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                        <div class="skill-details">CSS3 is used to style and lay out web pages.</div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name"><i class="fab fa-js"></i> JavaScript</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                        <div class="skill-details">JavaScript is a programming language used for creating dynamic content on the web.</div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name"><i class="fab fa-react"></i> React</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                        <div class="skill-details">React is a JavaScript library for building user interfaces.</div>
+                    </div>
+                </div>
+
+                <!-- Backend Development Skills -->
+                <div class="skill-category" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <h2>Backend Development</h2>
+
+                    <div class="skill-item">
+                        <div class="skill-name"><i class="fab fa-node-js"></i> Node.js</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                        <div class="skill-details">Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine for server-side programming.</div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name"><i class="fas fa-database"></i> MongoDB</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                        <div class="skill-details">MongoDB is a NoSQL database for storing data in a flexible, JSON-like format.</div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name"><i class="fas fa-server"></i> Express.js</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                        <div class="skill-details">Express.js is a web application framework for Node.js designed for building web applications and APIs.</div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name"><i class="fas fa-lock"></i> API Development</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                        <div class="skill-details">API Development involves creating server-side software that enables data exchange between software applications.</div>
+                    </div>
+                </div>
+
+                <!-- Other Skills -->
+                <div class="skill-category" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                    <h2>Other Skills</h2>
+
+                    <div class="skill-item">
+                        <div class="skill-name"><i class="fab fa-git-alt"></i> Git & GitHub</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                        <div class="skill-details">Git is a version control system for tracking changes in source code, and GitHub is a platform for hosting and collaborating on Git repositories.</div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name"><i class="fas fa-mobile-alt"></i> Responsive Design</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                        <div class="skill-details">Responsive Design ensures that web content adapts to various screen sizes and devices.</div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name"><i class="fas fa-tachometer-alt"></i> Performance Optimization</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                        <div class="skill-details">Performance Optimization involves improving the speed and efficiency of web applications.</div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name"><i class="fas fa-universal-access"></i> Web Accessibility</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                        <div class="skill-details">Web Accessibility ensures that websites are usable by people with disabilities.</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./Skills.js"></script>
+</body>
+</html>
